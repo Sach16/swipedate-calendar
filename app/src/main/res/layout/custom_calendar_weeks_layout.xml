@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingBottom="8dp"
+    android:paddingTop="8dp"
+    android:weightSum="7">
+
+    <TextView
+        style="@style/CalendarViewDayOfTheWeek"
+        android:layout_weight="1"
+        android:tag="dayOfWeek1"
+        android:textColor="@android:color/black"
+        android:text="SUN"
+        android:textSize="12sp"/>
+
+    <TextView
+        style="@style/CalendarViewDayOfTheWeek"
+        android:layout_weight="1"
+        android:tag="dayOfWeek2"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        android:text="MON" />
+
+    <TextView
+        style="@style/CalendarViewDayOfTheWeek"
+        android:layout_weight="1"
+        android:tag="dayOfWeek3"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        android:text="TUE" />
+
+    <TextView
+        style="@style/CalendarViewDayOfTheWeek"
+        android:layout_weight="1"
+        android:tag="dayOfWeek4"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        android:text="WED" />
+
+    <TextView
+        style="@style/CalendarViewDayOfTheWeek"
+        android:layout_weight="1"
+        android:tag="dayOfWeek5"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        android:text="THU" />
+
+    <TextView
+        style="@style/CalendarViewDayOfTheWeek"
+        android:layout_weight="1"
+        android:tag="dayOfWeek6"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        android:text="FRI" />
+
+    <TextView
+        style="@style/CalendarViewDayOfTheWeek"
+        android:layout_weight="1"
+        android:tag="dayOfWeek7"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        android:text="SAT" />
+</LinearLayout>

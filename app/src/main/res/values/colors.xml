@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#02A8F4</color>
+    <color name="colorPrimaryDark">#017BB2</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="red">#FFFF0000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="cardColor">#EDEDED</color>
+    <color name="calendarBlock">#14546D</color>
+    <color name="buttonBg">#05CFB5</color>
+</resources>

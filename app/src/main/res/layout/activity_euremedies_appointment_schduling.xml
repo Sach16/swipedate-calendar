@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CalendarActivity">
+
+    <include
+        android:id="@+id/REGD_TITLE_BAR"
+        layout="@layout/my_calendar_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.eucalendar.eucalendar.CalendarGridView
+        android:id="@+id/calendar"
+        android:layout_below="@+id/REGD_TITLE_BAR"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:gravity="center"
+        android:columnWidth="20dp"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="5dp"
+        android:layout_above="@+id/ATENDANCE_LAY"
+        android:background="@android:color/white"
+        android:adjustViewBounds="true"
+        android:numColumns="7"/>
+
+    <LinearLayout
+        android:id="@+id/ATENDANCE_LAY"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/calendarBlock"
+        android:layout_alignParentBottom="true">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/PRESENT_TXT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:drawablePadding="10dp"
+                android:gravity="center"
+                android:text="06"
+                android:textColor="@android:color/white"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/PRESENT_TXT"
+                android:gravity="center"
+                android:text="Present"
+                android:textColor="@android:color/white"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/LEAD_LAY"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/LEAVE_TXT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:drawablePadding="10dp"
+                android:gravity="center"
+                android:text="06"
+                android:textColor="@android:color/white"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/LEAVE_TXT"
+                android:gravity="center"
+                android:text="On Leave"
+                android:textColor="@android:color/white"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
