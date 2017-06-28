@@ -653,7 +653,8 @@ public class SwipeCalendar extends AppCompatActivity implements SlotSelectListne
             m_cDaysInMonth = getNumberOfDaysOfMonth(lCurrentMonth);
 
             // Gregorian Calendar : MINUS 1, set to FIRST OF MONTH
-            GregorianCalendar cal = new GregorianCalendar(yy, lCurrentMonth, 1);
+            GregorianCalendar cal = new GregorianCalendar(yy, lCurrentMonth, 1); //changing the value to 0 - starts day from
+            // monday changing the value to 1 - starts day from sunday and so on..
 
             if (lCurrentMonth == 11) {
                 lPrevMonth = lCurrentMonth - 1;
