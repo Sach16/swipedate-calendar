@@ -1,3 +1,3 @@
 # swipedate-calendar
 
-![alt tag](https://lh5.googleusercontent.com/-LhrxuaTNrPw/V1aApb3dQkI/AAAAAAAAcxE/-nAC-Mcce88oMOhg9FGiDJh9wvMCCSYSgCL0B/w320-h569-no/device-2016-05-19-135143.png)
+![alt tag](https://github.com/Sach16/swipedate-calendar/blob/7bba272b693b9aa3321cff7731870c0b9c08b19b/9SCtQ.png)
